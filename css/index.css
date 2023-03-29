@@ -72,11 +72,10 @@ header a{
     top: calc(50% - 140px);
     left: calc(50% - 140px);
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
-
-
 }
+
 #welcome-page-ball{
     border-radius: 50%;
     background-image: url(/img/one-piece-wallpaper-laptop.png);
