@@ -64,16 +64,18 @@ header a{
 
 #focus{
     position: absolute;
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
     z-index: 1;
     background: url(../img/one-piece-wallpaper-laptop.png);
-    top: calc(50% - 140px);
-    left: calc(50% - 140px);
+    top: calc(50% );
+    left: calc(50% );
+    transform: translate(-50%,-50%);
     background-position: center;
     /* background-size: cover; */
     background-attachment: fixed;
+    clip-path: circle(140px at 50% 50%)
 }
 
 #welcome-page-ball{
